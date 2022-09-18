@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    
+}
+nav{
+    height: 65px;
+    width: 100%;
+    background-color: #000066;
+
+}
+h3{
+    color: white;
+    font-size: 40px;
+    line-height: 70px;
+}
+nav ul{
+    margin-left: 10%;
+    margin-top: -50px;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 50px;
+}
+nav ul li a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    color: #4d4dff;
+    transition: .5s ease-in-out;
+
+}
+.im{
+    background-image: url('movie.png');
+    background-position: center;
+    background-size: cover;
+    width: 40px;
+    height: 15px;
+    background-repeat: no-repeat;
+}
+.input{
+    float: right;
+    margin-right: 90px;
+    margin-top: -20px;
+    width: 145px;
+    height: 30px;
+    border-radius: 20px;
+    background: #2d5986;
+    border: hidden;
+    color: white;
+
+}
+.logo{
+    color: transparent;
+    
+}
+.login{
+    position: absolute;
+    right: 15px;
+    font-size: 20px;
+    text-transform: capitalize;
+    top: 3px;
+    color: white;
+}
+p{
+    color: #e0e0eb;
+    position: absolute;
+    top: 21px;
+    right: 135px;
+    font-size: 18px;
+    font-weight: lighters;
+}
+.rest{
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(1917.jpg);
+    opacity: 5;
+    width: 100%;
+    height: 100%;
+    background-position: top;
+    background-size: cover;
+  
+    
+}
+h4{
+    color: white;
+    position: relative;
+    top: -80px;
+    left: 60px;
+    font-size: 16px;
+    font-weight: lighter;
+
+}
+.circle{
+    background-image: url(btn.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 35%;
+    left: 50%;
+    background: #6666ff;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+
+}
+#ic{
+    cursor: pointer;
+    
+    position: absolute;
+    left: 52%;
+    top: 46%;
+    font-size: 60px;
+    
+
+}
+button{
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    background: white;
+}
+h5{
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 90%;
+    left: 2%;
+}
